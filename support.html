@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - HappyWeb</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #2D3436;
+            background-color: #FFF9EB;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #FFA629;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            border-bottom: 3px solid #FF2DAA;
+            padding-bottom: 15px;
+        }
+        
+        h2 {
+            color: #14C58A;
+            font-size: 1.8em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        
+        h3 {
+            color: #FFA629;
+            font-size: 1.3em;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        ul, ol {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .last-updated {
+            color: #636E72;
+            font-style: italic;
+            margin-bottom: 30px;
+        }
+        
+        .contact-info {
+            background-color: #FFF9EB;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 30px;
+            border-left: 4px solid #FF2DAA;
+        }
+        
+        .highlight {
+            background-color: #FFF9EB;
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+        
+        .info-box {
+            background-color: #FFF9EB;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #14C58A;
+            margin: 20px 0;
+        }
+        
+        .warning {
+            background-color: #FFF9EB;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #FFA629;
+            margin: 20px 0;
+        }
+        
+        .step {
+            background-color: #FFF9EB;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+            border-left: 4px solid #14C58A;
+        }
+        
+        .step-number {
+            display: inline-block;
+            background-color: #14C58A;
+            color: white;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 28px;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        
+        .faq-item {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #E0E0E0;
+        }
+        
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+        
+        .faq-question {
+            font-weight: bold;
+            color: #FFA629;
+            margin-bottom: 8px;
+        }
+        
+        .faq-answer {
+            color: #2D3436;
+        }
+        
+        a {
+            color: #14C58A;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        code {
+            background-color: #FFF9EB;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Support & Help</h1>
+        <p class="last-updated">Last Updated: <span id="currentDate"></span></p>
+        
+        <div class="info-box">
+            <p><strong>Welcome to HappyWeb Support!</strong> We're here to help you get the most out of your safe browsing experience. If you can't find what you're looking for, please don't hesitate to <a href="#contact">contact us</a>.</p>
+        </div>
+        
+        <h2>Getting Started</h2>
+        
+        <h3>First Time Setup</h3>
+        <div class="step">
+            <span class="step-number">1</span>
+            <strong>Create Your Parent PIN</strong>
+            <p>When you first open HappyWeb, you'll be asked to create a 4-6 digit PIN. This PIN protects all parent settings and should be kept secure. Choose something memorable but not easily guessed by your child.</p>
+        </div>
+        
+        <div class="step">
+            <span class="step-number">2</span>
+            <strong>Add Allowed Websites</strong>
+            <p>After setting up your PIN, add websites that your child is allowed to visit. Tap the gear icon, enter your PIN, and go to "Allowed Sites" to add websites. You can add sites like educational platforms, approved games, or other safe content.</p>
+        </div>
+        
+        <div class="step">
+            <span class="step-number">3</span>
+            <strong>Set Up Child Profile (Optional)</strong>
+            <p>Personalize the experience by creating a child profile with a name and avatar. This makes the app more engaging for your child while keeping it safe and controlled.</p>
+        </div>
+        
+        <div class="step">
+            <span class="step-number">4</span>
+            <strong>Configure Time Limits & Bedtime</strong>
+            <p>Set daily time limits and bedtime hours to control when your child can use the browser. These settings help ensure healthy screen time habits.</p>
+        </div>
+        
+        <h2>Frequently Asked Questions</h2>
+        
+        <div class="faq-item">
+            <div class="faq-question">Q: How do I add a website to the allowed list?</div>
+            <div class="faq-answer">
+                <p>A: To add a website:</p>
+                <ol>
+                    <li>Tap the gear icon (⚙️) in the top right corner</li>
+                    <li>Enter your parent PIN</li>
+                    <li>Go to "Allowed Sites"</li>
+                    <li>Tap the "+" button</li>
+                    <li>Enter the website title and URL (e.g., "PBS Kids" and "pbskids.org")</li>
+                    <li>Tap "Add Site"</li>
+                </ol>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">Q: What happens if my child tries to visit a blocked website?</div>
+            <div class="faq-answer">
+                <p>A: If your child tries to visit a website that's not on the allowed list, they'll see a blocked page. They can request access to the site, which will appear in your "Access Requests" section. You can then approve or deny the request.</p>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">Q: I forgot my parent PIN. How do I reset it?</div>
+            <div class="faq-answer">
+                <p>A: If you've forgotten your PIN, you'll need to uninstall and reinstall the app. <strong>Warning:</strong> This will delete all your settings, allowed sites, and browsing history. Make sure to write down your PIN in a safe place to avoid this situation.</p>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">Q: How do I change my parent PIN?</div>
+            <div class="faq-answer">
+                <p>A: To change your PIN:</p>
+                <ol>
+                    <li>Open Parent Settings (gear icon)</li>
+                    <li>Enter your current PIN</li>
+                    <li>Go to "Security" section</li>
+                    <li>Tap "Change PIN"</li>
+                    <li>Enter your new 4-6 digit PIN</li>
+                    <li>Save the changes</li>
+                </ol>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">Q: Can my child bypass the restrictions?</div>
+            <div class="faq-answer">
+                <p>A: HappyWeb is designed with security in mind. All settings are protected by your parent PIN, and children cannot access or modify restrictions without it. However, no filtering system is 100% perfect, so we recommend active parental supervision alongside the app's controls.</p>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">Q: How do time limits work?</div>
+            <div class="faq-answer">
+                <p>A: Time limits track daily usage. When the limit is reached, the browser will be locked until the next day. You can set limits from 15 minutes to 2 hours, or choose "No Limit" if you prefer to manage time manually. The timer resets at midnight.</p>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">Q: What is Bedtime Mode?</div>
+            <div class="faq-answer">
+                <p>A: Bedtime Mode automatically locks the browser during specified hours (e.g., 9 PM to 7 AM). When bedtime mode is active, your child will see a bedtime screen and cannot browse. This helps ensure healthy sleep habits.</p>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">Q: Can I see what websites my child has visited?</div>
+            <div class="faq-answer">
+                <p>A: Yes! In Parent Settings, go to "Activity & Requests" and tap "Browsing History" to see all websites your child has visited. You can review this history at any time.</p>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">Q: Does HappyWeb collect or share my child's data?</div>
+            <div class="faq-answer">
+                <p>A: No. HappyWeb does not collect, transmit, or store any data on external servers. All information (PIN, allowed sites, browsing history, etc.) is stored locally on your device only. We never see your data, and it never leaves your device. See our <a href="privacy-policy.html">Privacy Policy</a> for more details.</p>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">Q: What is "Word of the Day"?</div>
+            <div class="faq-answer">
+                <p>A: Word of the Day is an optional educational feature that displays a new word each day on the home screen. You can enable or disable this feature in Parent Settings under "Learning".</p>
+            </div>
+        </div>
+        
+        <h2>Troubleshooting</h2>
+        
+        <h3>Website Won't Load</h3>
+        <ul>
+            <li><strong>Check your internet connection</strong> - Make sure your device is connected to Wi-Fi or cellular data</li>
+            <li><strong>Verify the website is allowed</strong> - The site must be on your allowed list. Check if the exact domain matches (e.g., "www.example.com" vs "example.com")</li>
+            <li><strong>Try adding the full URL</strong> - Some sites require the full URL including "https://"</li>
+            <li><strong>Check if the site is blocked</strong> - Look in "Blocked Sites" to see if the domain was accidentally blocked</li>
+        </ul>
+        
+        <h3>Settings Won't Save</h3>
+        <ul>
+            <li>Make sure you're entering your parent PIN correctly</li>
+            <li>Try closing and reopening the app</li>
+            <li>Restart your device if the problem persists</li>
+            <li>Ensure you have sufficient storage space on your device</li>
+        </ul>
+        
+        <h3>Time Limit Not Working</h3>
+        <ul>
+            <li>Verify time limits are enabled in Parent Settings</li>
+            <li>Check that the time limit is set to a value greater than 0</li>
+            <li>Make sure your device's date and time are set correctly</li>
+            <li>The timer resets at midnight - if it's not resetting, check your device's time zone settings</li>
+        </ul>
+        
+        <h3>Bedtime Mode Not Activating</h3>
+        <ul>
+            <li>Ensure "Enable Bedtime Mode" is turned on in Parent Settings</li>
+            <li>Verify the start and end times are set correctly</li>
+            <li>Check that your device's date and time are accurate</li>
+            <li>Bedtime mode uses 24-hour format - make sure times are set correctly (e.g., 21:00 for 9 PM)</li>
+        </ul>
+        
+        <h3>App Crashes or Freezes</h3>
+        <ul>
+            <li>Close the app completely and reopen it</li>
+            <li>Restart your device</li>
+            <li>Make sure you're running the latest version of the app</li>
+            <li>Check that your device has enough storage space</li>
+            <li>If the problem continues, try uninstalling and reinstalling the app (note: this will delete all settings)</li>
+        </ul>
+        
+        <h2>Features Guide</h2>
+        
+        <h3>Browsing Modes</h3>
+        <ul>
+            <li><strong>Whitelist Only:</strong> Only websites on your allowed list can be accessed. This is the most restrictive and safest option.</li>
+            <li><strong>Whitelist + Safe Browsing:</strong> Allows sites on your whitelist plus uses Apple's Safe Browsing to block known malicious sites. Still very safe but slightly more permissive.</li>
+        </ul>
+        
+        <h3>SafeSearch</h3>
+        <p>When enabled, SafeSearch filters out explicit content from search results. This is automatically enforced for all searches made through the browser.</p>
+        
+        <h3>Site Access Requests</h3>
+        <p>When your child tries to visit a blocked site, they can request access. These requests appear in your "Access Requests" section, where you can approve or deny them. Approved sites are automatically added to your allowed list.</p>
+        
+        <h3>Browsing History</h3>
+        <p>All websites your child visits are logged in the browsing history. You can review this history at any time in Parent Settings. History is stored locally on your device and never shared with anyone.</p>
+        
+        <div class="warning">
+            <strong>Important:</strong> HappyWeb provides tools to help manage your child's internet access, but it is not a substitute for active parental supervision. We recommend regularly reviewing browsing history and having conversations with your child about internet safety.
+        </div>
+        
+        <h2>Tips for Parents</h2>
+        
+        <ul>
+            <li><strong>Start with a small allowed list</strong> - Begin with a few trusted educational sites and gradually add more as needed</li>
+            <li><strong>Review browsing history regularly</strong> - Check what your child has been viewing to ensure appropriate content</li>
+            <li><strong>Use time limits wisely</strong> - Set reasonable limits based on your child's age and your family's values</li>
+            <li><strong>Talk to your child</strong> - Explain why certain sites are blocked and discuss internet safety</li>
+            <li><strong>Keep your PIN secure</strong> - Don't share your PIN with your child, and write it down in a safe place</li>
+            <li><strong>Test the settings</strong> - Try accessing blocked sites yourself to verify restrictions are working</li>
+            <li><strong>Update allowed sites regularly</strong> - As your child grows, you may want to add age-appropriate sites</li>
+        </ul>
+        
+        <h2 id="contact">Contact Us</h2>
+        <div class="contact-info">
+            <p>Need additional help? We're here for you!</p>
+            <p>
+                <strong>Email:</strong> <a href="mailto:alice.turcanu91@gmail.com">alice.turcanu91@gmail.com</a><br>
+            </p>
+            <p style="margin-top: 15px;">
+                When contacting us, please include:
+            </p>
+            <ul>
+                <li>Your device model (e.g., iPhone 12, iPad Air)</li>
+                <li>iOS version</li>
+                <li>App version</li>
+                <li>A description of the issue you're experiencing</li>
+                <li>Steps you've already tried</li>
+            </ul>
+            <p style="margin-top: 15px;">
+                We typically respond within 24-48 hours.
+            </p>
+        </div>
+        
+        <h2>Additional Resources</h2>
+        <ul>
+            <li><a href="terms-and-conditions.html">Terms and Conditions</a></li>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+        </ul>
+        
+        <div class="info-box" style="margin-top: 40px;">
+            <p><strong>Thank you for using HappyWeb!</strong> We're committed to providing a safe and positive browsing experience for your family. Your feedback helps us improve the app, so please don't hesitate to reach out with suggestions or concerns.</p>
+        </div>
+    </div>
+    
+    <script>
+        document.getElementById('currentDate').textContent = new Date().toLocaleDateString('en-US', { 
+            year: 'numeric', 
+            month: 'long', 
+            day: 'numeric' 
+        });
+    </script>
+</body>
+</html>
+
